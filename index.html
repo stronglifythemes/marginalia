@@ -3,212 +3,344 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width"/>
 <meta name="builder" content="Stronglify"/>
-<link rel="icon" type="image/x-icon" href="https://media.stronglify.com/295/favicon-1792592853.svg"/>
-<title>Un libro también es un margen donde alguien dejó una pregunta · marginalia</title>
-<meta name="description" content="marginalia trabaja con editorial independiente, catálogo y convocatorias. Preferimos explicar qué vemos, qué cuesta, cuánto toma y qué decisión te corresponde a ti."/>
+<link rel="icon" type="image/x-icon" href="https://media.stronglify.com/295/favicon-1793291208.svg"/>
+<title>Hacemos pocos libros y los cuidamos todos · Marginalia</title>
+<meta name="description" content="Marginalia es una editorial independiente de Bogotá. Publicamos narrativa, poesía y crónica de autores colombianos, muchos en su primer libro."/>
 <meta name="robots" content="index"/>
 <link rel="canonical" href="https://stronglifythemes.github.io/"/><style>
 html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
 fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}img{max-width:100%;height:auto}
 </style><link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&amp;family=Alegreya+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&amp;family=Alegreya+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <script src="https://media.stronglify.com/tailwind-play-3.4.17.js"></script>
-<script>tailwind.config={theme:{extend:{colors:{paper:'var(--paper)',ink:'var(--ink)',accent:'var(--accent)',dark:'var(--dark)',mist:'var(--mist)'},fontFamily:{display:'var(--display)',sans:'var(--body)'},spacing:{gutter:'max(clamp(1rem,7vw,9rem),calc((100% - 90rem)/2))'}}}};</script>
-<style>:root{--paper:#F3F4F6;--ink:#171A21;--accent:#A62D38;--dark:#24365C;--mist:#E3E7EE;--display:"Alegreya",serif;--body:"Alegreya Sans",sans-serif}a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:4px}.bg-dark :focus-visible,.bg-accent :focus-visible{outline-color:var(--paper)}@media (prefers-reduced-motion:reduce){*,::before,::after{transition:none!important}}</style></head>
-<body class="bg-paper font-sans leading-[1.6] text-ink selection:bg-accent selection:text-paper">
-  <header>
-  <div class="bg-ink px-gutter py-[.35rem] text-[.85rem] text-paper">Bogotá · Atención directa · Desde $38.000</div>
-  <nav class="relative z-10 flex min-h-[72px] items-center justify-between gap-6 bg-dark px-gutter py-4 text-paper">
-    <a href="./" class="shrink-0"><img src="https://placehold.co/160x40" alt="marginalia" class="h-10 w-auto"/></a>
-    <div id="navlinks" class="absolute inset-x-0 top-full hidden flex-col items-start gap-[clamp(.8rem,2vw,2.2rem)] bg-dark px-gutter py-4 md:static md:flex md:flex-row md:items-center md:p-0">
+<script>tailwind.config={theme:{extend:{colors:{paper:'var(--paper)',ink:'var(--ink)',accent:'var(--accent)',dark:'var(--dark)',mist:'var(--mist)',muted:'var(--muted)',fog:'var(--fog)'},fontFamily:{display:'var(--display)',sans:'var(--body)'}}}};</script>
+<style>:root{--paper:#F3F4F6;--ink:#171A21;--accent:#A62D38;--dark:#24365C;--mist:#E3E7EE;--muted:#4B5263;--fog:#C5CEDF;--display:"Alegreya",serif;--body:"Alegreya Sans",sans-serif}a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.bg-dark :focus-visible{outline-color:var(--paper)}.texto{font-size:1.1rem;line-height:1.7}.texto p,.texto ul,.texto ol{margin:1.1em 0}.texto ul,.texto ol{list-style:disc;padding-left:1.3em}.texto li{margin:.35em 0}.texto li::marker{color:var(--accent)}.texto h2{font-family:var(--display);font-weight:500;font-size:clamp(1.75rem,3vw,2.3rem);line-height:1.1;margin:2.2em 0 .5em;text-wrap:balance}.texto h2:first-child{margin-top:0}.texto h3{font-family:var(--display);font-style:italic;font-weight:500;font-size:1.45rem;line-height:1.2;margin:1.8em 0 .4em}.texto a{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.25em;transition:color .2s}.texto a:hover{color:var(--accent)}.texto blockquote{margin:2.2em 0;padding:1.4rem 1.6rem;background:var(--mist);font-family:var(--display);font-style:italic;font-size:clamp(1.5rem,2.6vw,2rem);line-height:1.25;text-wrap:balance}.texto blockquote p{margin:0}.texto figure{margin:2.4em 0}.texto img{display:block;width:100%;height:auto}.texto figcaption{margin-top:.7rem;font-size:.9rem;color:var(--muted)}@media (prefers-reduced-motion:reduce){*,::before,::after{transition:none!important;scroll-behavior:auto!important}}</style></head>
+<body class="bg-paper font-sans text-ink antialiased selection:bg-accent selection:text-paper">
+  <header class="relative z-10 bg-paper">
+  <nav class="mx-auto flex max-w-[80rem] items-center justify-between gap-6 px-5 py-4 md:px-10 md:py-5" aria-label="Menú principal">
+    <a href="./" class="shrink-0"><img src="https://placehold.co/160x40" alt="Marginalia" class="h-10 w-auto"/></a>
+    <div id="navlinks" class="absolute inset-x-0 top-full hidden flex-col items-start gap-4 bg-mist px-5 py-6 md:static md:flex md:flex-row md:items-center md:gap-10 md:bg-transparent md:p-0">
       
-      <a href="./" class="underline decoration-transparent decoration-1 underline-offset-[.3em] transition-colors duration-200 hover:decoration-current">Inicio</a>
+      <a href="./" class="font-display text-[1.2rem] italic underline decoration-transparent decoration-1 underline-offset-[.3em] transition-colors duration-200 hover:text-accent hover:decoration-current">Inicio</a>
       
-      <a href="./page" class="underline decoration-transparent decoration-1 underline-offset-[.3em] transition-colors duration-200 hover:decoration-current">Nosotros</a>
+      <a href="./page" class="font-display text-[1.2rem] italic underline decoration-transparent decoration-1 underline-offset-[.3em] transition-colors duration-200 hover:text-accent hover:decoration-current">Nosotros</a>
       
-      <a href="./blog" class="underline decoration-transparent decoration-1 underline-offset-[.3em] transition-colors duration-200 hover:decoration-current">Blog</a>
+      <a href="./blog" class="font-display text-[1.2rem] italic underline decoration-transparent decoration-1 underline-offset-[.3em] transition-colors duration-200 hover:text-accent hover:decoration-current">Blog</a>
       
     </div>
-    <button id="menu-button" type="button" class="border border-current px-[.8rem] py-[.55rem] transition-[background-color,color,transform] duration-200 ease-out hover:bg-paper hover:text-dark active:scale-[0.98] md:hidden" aria-label="Abrir menú" aria-expanded="false" aria-controls="navlinks">Menú</button>
+    <button id="menu-button" type="button" class="border border-ink px-4 py-2 text-[.95rem] font-medium transition-[background-color,color,transform] duration-200 ease-out hover:bg-ink hover:text-paper active:scale-[0.98] md:hidden" aria-expanded="false" aria-controls="navlinks">Menú</button>
   </nav>
 </header>
 
 <main>
   
-  <section class="grid grid-cols-1 items-center gap-[clamp(2rem,7vw,8rem)] overflow-hidden px-gutter py-[clamp(3.5rem,9vw,10rem)] md:min-h-[74dvh] md:grid-cols-[1.05fr_.95fr]">
-    <div>
-      <h1 class="m-0 text-balance font-display text-[clamp(3.3rem,8vw,9rem)] font-bold leading-[.9] tracking-[-.06em]">Un libro también es un margen donde alguien dejó una pregunta.</h1>
-      <p class="my-6 max-w-[64ch] text-pretty text-[clamp(1.05rem,1.5vw,1.3rem)]">marginalia trabaja con editorial independiente, catálogo y convocatorias. No creemos que una buena atención dependa de esconder el proceso detrás de palabras grandes. Preferimos explicar qué vemos, qué cuesta, cuánto toma y qué decisión te corresponde a ti. La primera conversación sirve para poner el caso en orden, no para presionarte.</p>
-      <a href="#" class="inline-block whitespace-nowrap bg-ink px-[1.15rem] py-[.85rem] font-bold text-paper transition-[background-color,transform] duration-200 ease-out hover:bg-accent active:scale-[0.98]">Hablar con marginalia</a>
+  <section class="mx-auto grid max-w-[80rem] gap-10 px-5 pb-20 pt-10 md:grid-cols-12 md:gap-12 md:px-10 md:pb-28 md:pt-14">
+    <div class="flex items-center justify-center bg-dark px-8 py-12 sm:px-14 md:col-span-7 md:px-16 md:py-20">
+      <img src="https://media.stronglify.com/295/grad-01-1793291211.svg" alt="Portada de la novela El año de las lluvias cortas" class="aspect-[3/4] w-full max-w-[26rem] rounded-r-[6px] object-cover shadow-[0_32px_60px_-24px_rgba(8,14,28,.8)]"/>
     </div>
-    <img loading="lazy" src="https://media.stronglify.com/295/marginalia-01-1792522308.jpg" alt="Imagen principal de marginalia" class="h-full min-h-[240px] w-full object-cover md:min-h-[330px]"/>
+    <div class="flex flex-col justify-center md:col-span-5">
+      <h1 class="font-display text-[clamp(2.5rem,4.6vw,4.25rem)] font-medium leading-[1.02] tracking-[-.015em] text-balance">Hacemos pocos libros y los cuidamos todos.</h1>
+      <p class="mt-6 max-w-[46ch] text-[1.1rem] leading-[1.65] text-muted text-pretty">Marginalia es una editorial independiente de Bogotá. Publicamos narrativa, poesía y crónica de autores colombianos, muchos en su primer libro.</p>
+      <div class="mt-10 bg-mist p-6">
+        <p class="font-display text-[1.6rem] italic leading-tight">El año de las lluvias cortas</p>
+        <p class="mt-1 text-muted">Novela de Lucía Arango Pardo</p>
+        <dl class="mt-5 grid grid-cols-2 gap-x-6 gap-y-3 text-[.98rem]">
+          
+          <div class="group">
+            <dt class="text-muted">Páginas</dt>
+            <dd class="group-last:font-semibold group-last:text-accent">184</dd>
+          </div>
+          
+          <div class="group">
+            <dt class="text-muted">Formato</dt>
+            <dd class="group-last:font-semibold group-last:text-accent">14 × 21 cm</dd>
+          </div>
+          
+          <div class="group">
+            <dt class="text-muted">Tiraje</dt>
+            <dd class="group-last:font-semibold group-last:text-accent">500 ejemplares</dd>
+          </div>
+          
+          <div class="group">
+            <dt class="text-muted">Precio</dt>
+            <dd class="group-last:font-semibold group-last:text-accent">$52.000</dd>
+          </div>
+          
+        </dl>
+        <p class="mt-5 font-display text-[1.05rem] italic leading-[1.5] text-muted">Este libro se terminó de imprimir en Bogotá en octubre de 2026, sobre papel bond de 90 gramos.</p>
+      </div>
+      <div class="mt-8 flex flex-wrap items-center gap-x-8 gap-y-4">
+        <a href="tel:300%20000%200000" class="inline-flex items-center whitespace-nowrap bg-accent px-6 py-3.5 font-semibold text-paper transition-[background-color,transform] duration-200 ease-out hover:bg-ink active:scale-[0.98]">Llamar para pedirlo</a>
+        <a href="./#catalogo" class="font-semibold underline decoration-1 underline-offset-[.3em] transition-colors duration-200 hover:text-accent">Ver el catálogo</a>
+      </div>
+    </div>
   </section>
 
   
-  <section class="px-gutter py-[clamp(4rem,9vw,10rem)]">
-    <h2 class="mb-6 mt-0 text-balance font-display text-[clamp(2.6rem,6vw,6.3rem)] font-bold leading-[.9] tracking-[-.06em]">Opciones claras, valores claros</h2>
-    <p class="my-[1em] max-w-[65ch] text-pretty text-[1.05rem]">Estos son precios de referencia en pesos colombianos para empezar la conversación. Si tu caso cambia el alcance, te explicamos la diferencia antes de confirmar. Cada propuesta separa materiales, tiempo de trabajo y cualquier servicio adicional para que sepas exactamente qué estás pagando.</p>
-    <div class="mt-[2.3rem] grid grid-cols-1 gap-px md:grid-cols-3">
+  <section id="catalogo">
+    <div class="mx-auto max-w-[80rem] px-5 py-20 md:px-10 md:py-28">
+      <div class="max-w-[60ch]">
+        <h2 class="font-display text-[clamp(2.2rem,4vw,3.4rem)] font-medium leading-[1.05] tracking-[-.015em] text-balance">El catálogo</h2>
+        <p class="mt-6 text-[1.1rem] leading-[1.65] text-muted text-pretty">Ocho títulos en circulación, a la venta en la librería y con pedido por correo. Desde $38.000.</p>
+      </div>
+      <div class="mt-14 grid grid-cols-2 gap-y-16 md:grid-cols-4">
+        
+        <article class="px-3 md:px-5">
+          <img src="https://media.stronglify.com/295/grad-02-1793291212.svg" alt="Portada del libro" class="aspect-[3/4] w-full rounded-r-[4px] object-cover shadow-[0_18px_30px_-18px_rgba(8,14,28,.7)]"/>
+          <h3 class="mt-5 font-display text-[1.3rem] font-medium leading-tight text-balance">El año de las lluvias cortas</h3>
+          <p class="mt-1 text-[.98rem] text-muted">Lucía Arango Pardo</p>
+          <p class="mt-3 flex flex-wrap justify-between gap-x-3 text-[.95rem]"><span>Novela</span><span class="font-semibold text-accent">$52.000</span></p>
+        </article>
+        
+        <article class="px-3 md:px-5">
+          <img src="https://media.stronglify.com/295/grad-03-1793291212.svg" alt="Portada del libro" class="aspect-[3/4] w-full rounded-r-[4px] object-cover shadow-[0_18px_30px_-18px_rgba(8,14,28,.7)]"/>
+          <h3 class="mt-5 font-display text-[1.3rem] font-medium leading-tight text-balance">Cuaderno de la sabana</h3>
+          <p class="mt-1 text-[.98rem] text-muted">Tomás Becerra Lugo</p>
+          <p class="mt-3 flex flex-wrap justify-between gap-x-3 text-[.95rem]"><span>Poesía</span><span class="font-semibold text-accent">$38.000</span></p>
+        </article>
+        
+        <article class="px-3 md:px-5">
+          <img src="https://media.stronglify.com/295/grad-04-1793291213.svg" alt="Portada del libro" class="aspect-[3/4] w-full rounded-r-[4px] object-cover shadow-[0_18px_30px_-18px_rgba(8,14,28,.7)]"/>
+          <h3 class="mt-5 font-display text-[1.3rem] font-medium leading-tight text-balance">Casa con patio</h3>
+          <p class="mt-1 text-[.98rem] text-muted">Inés Cifuentes</p>
+          <p class="mt-3 flex flex-wrap justify-between gap-x-3 text-[.95rem]"><span>Cuentos</span><span class="font-semibold text-accent">$44.000</span></p>
+        </article>
+        
+        <article class="px-3 md:px-5">
+          <img src="https://media.stronglify.com/295/grad-05-1793291213.svg" alt="Portada del libro" class="aspect-[3/4] w-full rounded-r-[4px] object-cover shadow-[0_18px_30px_-18px_rgba(8,14,28,.7)]"/>
+          <h3 class="mt-5 font-display text-[1.3rem] font-medium leading-tight text-balance">Las horas del tranvía</h3>
+          <p class="mt-1 text-[.98rem] text-muted">Mateo Salcedo Rey</p>
+          <p class="mt-3 flex flex-wrap justify-between gap-x-3 text-[.95rem]"><span>Crónica</span><span class="font-semibold text-accent">$48.000</span></p>
+        </article>
+        
+        <article class="px-3 md:px-5">
+          <img src="https://media.stronglify.com/295/grad-06-1793291213.svg" alt="Portada del libro" class="aspect-[3/4] w-full rounded-r-[4px] object-cover shadow-[0_18px_30px_-18px_rgba(8,14,28,.7)]"/>
+          <h3 class="mt-5 font-display text-[1.3rem] font-medium leading-tight text-balance">Inventario de una mudanza</h3>
+          <p class="mt-1 text-[.98rem] text-muted">Carolina Ospina Ruiz</p>
+          <p class="mt-3 flex flex-wrap justify-between gap-x-3 text-[.95rem]"><span>Novela</span><span class="font-semibold text-accent">$50.000</span></p>
+        </article>
+        
+        <article class="px-3 md:px-5">
+          <img src="https://media.stronglify.com/295/grad-07-1793291213.svg" alt="Portada del libro" class="aspect-[3/4] w-full rounded-r-[4px] object-cover shadow-[0_18px_30px_-18px_rgba(8,14,28,.7)]"/>
+          <h3 class="mt-5 font-display text-[1.3rem] font-medium leading-tight text-balance">Río abajo</h3>
+          <p class="mt-1 text-[.98rem] text-muted">Julián Mora Tafur</p>
+          <p class="mt-3 flex flex-wrap justify-between gap-x-3 text-[.95rem]"><span>Crónica</span><span class="font-semibold text-accent">$46.000</span></p>
+        </article>
+        
+        <article class="px-3 md:px-5">
+          <img src="https://media.stronglify.com/295/grad-08-1793291214.svg" alt="Portada del libro" class="aspect-[3/4] w-full rounded-r-[4px] object-cover shadow-[0_18px_30px_-18px_rgba(8,14,28,.7)]"/>
+          <h3 class="mt-5 font-display text-[1.3rem] font-medium leading-tight text-balance">La paciencia del papel</h3>
+          <p class="mt-1 text-[.98rem] text-muted">Valeria Cuéllar Díaz</p>
+          <p class="mt-3 flex flex-wrap justify-between gap-x-3 text-[.95rem]"><span>Ensayo</span><span class="font-semibold text-accent">$42.000</span></p>
+        </article>
+        
+        <article class="px-3 md:px-5">
+          <img src="https://media.stronglify.com/295/grad-09-1793291214.svg" alt="Portada del libro" class="aspect-[3/4] w-full rounded-r-[4px] object-cover shadow-[0_18px_30px_-18px_rgba(8,14,28,.7)]"/>
+          <h3 class="mt-5 font-display text-[1.3rem] font-medium leading-tight text-balance">Los nombres del frío</h3>
+          <p class="mt-1 text-[.98rem] text-muted">Andrés Rincón Lago</p>
+          <p class="mt-3 flex flex-wrap justify-between gap-x-3 text-[.95rem]"><span>Poesía</span><span class="font-semibold text-accent">$38.000</span></p>
+        </article>
+        
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="autores" class="bg-mist">
+    <div class="mx-auto max-w-[80rem] px-5 py-20 md:px-10 md:py-28">
+      <div class="max-w-[60ch]">
+        <h2 class="font-display text-[clamp(2.2rem,4vw,3.4rem)] font-medium leading-[1.05] tracking-[-.015em] text-balance">Autores de la casa</h2>
+        <p class="mt-6 text-[1.1rem] leading-[1.65] text-muted text-pretty">Casi todos publicaron aquí su primer libro. Escriben desde seis ciudades del país.</p>
+      </div>
+      <ul class="mt-14 space-y-8">
+        
+        <li class="grid gap-2 md:grid-cols-[1fr_auto] md:items-baseline md:gap-10">
+          <p class="font-display text-[clamp(2rem,4.6vw,4rem)] leading-[1.05] tracking-[-.02em]">Lucía Arango Pardo</p>
+          <p class="text-muted md:text-right"><span class="font-display text-[1.2rem] italic text-ink">El año de las lluvias cortas</span> · Bogotá</p>
+        </li>
+        
+        <li class="grid gap-2 md:grid-cols-[1fr_auto] md:items-baseline md:gap-10">
+          <p class="font-display text-[clamp(2rem,4.6vw,4rem)] leading-[1.05] tracking-[-.02em]">Tomás Becerra Lugo</p>
+          <p class="text-muted md:text-right"><span class="font-display text-[1.2rem] italic text-ink">Cuaderno de la sabana</span> · Tunja</p>
+        </li>
+        
+        <li class="grid gap-2 md:grid-cols-[1fr_auto] md:items-baseline md:gap-10">
+          <p class="font-display text-[clamp(2rem,4.6vw,4rem)] leading-[1.05] tracking-[-.02em]">Inés Cifuentes</p>
+          <p class="text-muted md:text-right"><span class="font-display text-[1.2rem] italic text-ink">Casa con patio</span> · Pasto</p>
+        </li>
+        
+        <li class="grid gap-2 md:grid-cols-[1fr_auto] md:items-baseline md:gap-10">
+          <p class="font-display text-[clamp(2rem,4.6vw,4rem)] leading-[1.05] tracking-[-.02em]">Mateo Salcedo Rey</p>
+          <p class="text-muted md:text-right"><span class="font-display text-[1.2rem] italic text-ink">Las horas del tranvía</span> · Medellín</p>
+        </li>
+        
+        <li class="grid gap-2 md:grid-cols-[1fr_auto] md:items-baseline md:gap-10">
+          <p class="font-display text-[clamp(2rem,4.6vw,4rem)] leading-[1.05] tracking-[-.02em]">Carolina Ospina Ruiz</p>
+          <p class="text-muted md:text-right"><span class="font-display text-[1.2rem] italic text-ink">Inventario de una mudanza</span> · Cali</p>
+        </li>
+        
+        <li class="grid gap-2 md:grid-cols-[1fr_auto] md:items-baseline md:gap-10">
+          <p class="font-display text-[clamp(2rem,4.6vw,4rem)] leading-[1.05] tracking-[-.02em]">Julián Mora Tafur</p>
+          <p class="text-muted md:text-right"><span class="font-display text-[1.2rem] italic text-ink">Río abajo</span> · Honda</p>
+        </li>
+        
+      </ul>
+    </div>
+  </section>
+
+  
+  <section id="novedades" class="mx-auto max-w-[80rem] px-5 py-20 md:px-10 md:py-28">
+    <div class="max-w-[60ch]">
+      <h2 class="font-display text-[clamp(2.2rem,4vw,3.4rem)] font-medium leading-[1.05] tracking-[-.015em] text-balance">Novedades por temporada</h2>
+      <p class="mt-6 text-[1.1rem] leading-[1.65] text-muted text-pretty">Publicamos en tres momentos del año, con lanzamiento, lectura en voz alta y firma en la librería.</p>
+    </div>
+    <div class="mt-14 space-y-16 md:space-y-20">
       
-      <article class="flex min-h-[205px] flex-col justify-between bg-mist p-[1.6rem] text-ink">
-        <span class="font-medium">Título de catálogo desde</span>
-        <strong class="font-display text-[clamp(1.6rem,3vw,3rem)] leading-none text-accent">$38.000</strong>
-        <a href="#" class="self-start underline decoration-transparent decoration-1 underline-offset-[.3em] transition-colors duration-200 hover:decoration-current">Consultar ahora →</a>
+      <article class="grid gap-6 md:grid-cols-12 md:gap-10">
+        <div class="md:col-span-3">
+          <h3 class="font-display text-[1.9rem] italic leading-tight">Temporada de feria</h3>
+          <p class="mt-1 text-muted">Abril y mayo</p>
+        </div>
+        <div class="md:col-span-5">
+          <ul class="space-y-3">
+            
+            <li class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1"><span class="font-display text-[1.25rem]">Cuaderno de la sabana</span><span class="text-[.95rem] text-muted">Poesía, Tomás Becerra Lugo</span></li>
+            
+            <li class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1"><span class="font-display text-[1.25rem]">Casa con patio</span><span class="text-[.95rem] text-muted">Cuentos, Inés Cifuentes</span></li>
+            
+          </ul>
+          <p class="mt-4 max-w-[46ch] text-pretty text-muted">Los dos se presentan en la Feria del Libro de Bogotá.</p>
+        </div>
+        <img src="https://media.stronglify.com/295/marginalia-10-1792522326.jpg" alt="Foto de la temporada de publicación" class="aspect-[4/3] w-full object-cover md:col-span-4"/>
       </article>
       
-      <article class="flex min-h-[205px] flex-col justify-between bg-mist p-[1.6rem] text-ink">
-        <span class="font-medium">Caja de tres libros</span>
-        <strong class="font-display text-[clamp(1.6rem,3vw,3rem)] leading-none text-accent">$96.000</strong>
-        <a href="#" class="self-start underline decoration-transparent decoration-1 underline-offset-[.3em] transition-colors duration-200 hover:decoration-current">Consultar ahora →</a>
+      <article class="grid gap-6 md:grid-cols-12 md:gap-10">
+        <div class="md:col-span-3">
+          <h3 class="font-display text-[1.9rem] italic leading-tight">Mitad de año</h3>
+          <p class="mt-1 text-muted">Julio y agosto</p>
+        </div>
+        <div class="md:col-span-5">
+          <ul class="space-y-3">
+            
+            <li class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1"><span class="font-display text-[1.25rem]">Las horas del tranvía</span><span class="text-[.95rem] text-muted">Crónica, Mateo Salcedo Rey</span></li>
+            
+            <li class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1"><span class="font-display text-[1.25rem]">Taller de lectura</span><span class="text-[.95rem] text-muted">Ocho sesiones, $140.000</span></li>
+            
+          </ul>
+          <p class="mt-4 max-w-[46ch] text-pretty text-muted">En el taller leemos la crónica con su autor en la mesa.</p>
+        </div>
+        <img src="https://media.stronglify.com/295/marginalia-02-1792522310.jpg" alt="Foto de la temporada de publicación" class="aspect-[4/3] w-full object-cover md:col-span-4"/>
       </article>
       
-      <article class="flex min-h-[205px] flex-col justify-between bg-mist p-[1.6rem] text-ink">
-        <span class="font-medium">Taller de lectura</span>
-        <strong class="font-display text-[clamp(1.6rem,3vw,3rem)] leading-none text-accent">$140.000</strong>
-        <a href="#" class="self-start underline decoration-transparent decoration-1 underline-offset-[.3em] transition-colors duration-200 hover:decoration-current">Consultar ahora →</a>
+      <article class="grid gap-6 md:grid-cols-12 md:gap-10">
+        <div class="md:col-span-3">
+          <h3 class="font-display text-[1.9rem] italic leading-tight">Fin de año</h3>
+          <p class="mt-1 text-muted">Octubre a diciembre</p>
+        </div>
+        <div class="md:col-span-5">
+          <ul class="space-y-3">
+            
+            <li class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1"><span class="font-display text-[1.25rem]">El año de las lluvias cortas</span><span class="text-[.95rem] text-muted">Novela, Lucía Arango Pardo</span></li>
+            
+            <li class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1"><span class="font-display text-[1.25rem]">Caja de tres libros</span><span class="text-[.95rem] text-muted">A elección, $96.000</span></li>
+            
+          </ul>
+          <p class="mt-4 max-w-[46ch] text-pretty text-muted">La caja llega a tiempo para los regalos de diciembre.</p>
+        </div>
+        <img src="https://media.stronglify.com/295/marginalia-14-1792522333.jpg" alt="Foto de la temporada de publicación" class="aspect-[4/3] w-full object-cover md:col-span-4"/>
       </article>
       
     </div>
   </section>
 
-  <section class="grid grid-cols-1 items-center gap-[clamp(2rem,7vw,8rem)] px-gutter py-[clamp(4rem,9vw,10rem)] md:grid-cols-2">
-    <div>
-      <h2 class="mb-6 mt-0 text-balance font-display text-[clamp(2.6rem,6vw,6.3rem)] font-bold leading-[.9] tracking-[-.06em]">Primero entendemos tu caso</h2>
-      <div class="max-w-[65ch] text-[1.05rem] [&amp;_p]:my-[1em] [&amp;_p]:text-pretty"><p>En marginalia atendemos personas que necesitan una respuesta concreta, no una lista interminable de promesas. Quien llega por primera vez recibe orientación sobre el servicio, las alternativas disponibles y las condiciones que pueden cambiar el valor final. Si algo no conviene, también lo decimos.</p>
-<p>La cita sirve para mirar con atención y dejar registro. Puedes preguntar por materiales, tiempos, cuidado posterior y garantía. Te llevas un resumen útil incluso cuando prefieres pensarlo o comparar antes de decidir.</p></div>
-    </div>
-    <img loading="lazy" src="https://media.stronglify.com/295/marginalia-02-1792522310.jpg" alt="Detalle de atención de marginalia" class="min-h-[340px] w-full object-cover"/>
-  </section>
-
-  <section class="grid grid-cols-1 items-start gap-[clamp(2rem,7vw,8rem)] bg-dark px-gutter py-[clamp(4rem,9vw,10rem)] text-paper md:grid-cols-2">
-    <img loading="lazy" src="https://media.stronglify.com/295/marginalia-03-1792522313.jpg" alt="Proceso de trabajo de marginalia" class="min-h-[340px] w-full object-cover"/>
-    <div>
-      <h2 class="mb-6 mt-0 text-balance font-display text-[clamp(2.6rem,6vw,6.3rem)] font-bold leading-[.9] tracking-[-.06em]">Así avanzamos sin adivinar</h2>
-      <p class="my-[1em] max-w-[65ch] text-pretty text-[1.05rem]">La confianza se construye con pasos que se pueden seguir. Mantenemos la comunicación abierta desde la primera consulta hasta la entrega, y avisamos antes de cualquier cambio. Cuando hace falta una foto, una medida o una revisión adicional, te contamos por qué y cómo afecta el resultado.</p>
-      <ol class="mt-8 grid list-none grid-cols-1 gap-px bg-dark p-px lg:grid-cols-2">
-        
-        <li class="min-h-[210px] bg-paper p-[1.35rem] font-display text-[1.25rem] leading-[1.3] text-ink">Escríbenos con la fecha, una foto o el detalle que ya tengas claro.</li>
-        
-        <li class="min-h-[210px] bg-paper p-[1.35rem] font-display text-[1.25rem] leading-[1.3] text-ink">Revisamos el caso y respondemos con opciones, precio y tiempo real.</li>
-        
-        <li class="min-h-[210px] bg-paper p-[1.35rem] font-display text-[1.25rem] leading-[1.3] text-ink">Confirmamos contigo antes de pasar al siguiente paso o pedir un anticipo.</li>
-        
-        <li class="min-h-[210px] bg-paper p-[1.35rem] font-display text-[1.25rem] leading-[1.3] text-ink">Entregamos, ajustamos lo necesario y dejamos una recomendación útil.</li>
-        
-      </ol>
+  
+  <section id="manuscritos" class="bg-dark text-paper">
+    <div class="mx-auto max-w-[80rem] px-5 py-20 md:px-10 md:py-28">
+      <div class="max-w-[60ch]">
+        <h2 class="font-display text-[clamp(2.2rem,4vw,3.4rem)] font-medium leading-[1.05] tracking-[-.015em] text-balance">Cómo enviar un manuscrito</h2>
+        <p class="mt-6 text-[1.1rem] leading-[1.65] text-fog text-pretty">Abrimos convocatoria en febrero y en agosto. Leemos todo lo que llega y respondemos siempre, aunque sea para decir que no.</p>
+        <a href="tel:300%20000%200000" class="mt-8 inline-flex items-center whitespace-nowrap bg-paper px-6 py-3.5 font-semibold text-dark transition-[background-color,color,transform] duration-200 ease-out hover:bg-accent hover:text-paper active:scale-[0.98]">Llamar a la editorial</a>
+      </div>
+      <div class="mt-14 grid gap-12 sm:grid-cols-2 md:gap-16">
+        <div>
+          <h3 class="font-display text-[1.6rem] italic leading-tight">Qué enviar</h3>
+          <ul class="mt-6 space-y-4">
+            
+            <li class="flex gap-4"><span aria-hidden="true" class="mt-[.6em] h-2 w-2 shrink-0 rounded-full bg-fog"></span><span>Una sinopsis de una página, con el final incluido.</span></li>
+            
+            <li class="flex gap-4"><span aria-hidden="true" class="mt-[.6em] h-2 w-2 shrink-0 rounded-full bg-fog"></span><span>Las primeras treinta páginas en PDF.</span></li>
+            
+            <li class="flex gap-4"><span aria-hidden="true" class="mt-[.6em] h-2 w-2 shrink-0 rounded-full bg-fog"></span><span>Una carta breve sobre quién escribe.</span></li>
+            
+            <li class="flex gap-4"><span aria-hidden="true" class="mt-[.6em] h-2 w-2 shrink-0 rounded-full bg-fog"></span><span>Tu nombre, ciudad y teléfono en la primera hoja.</span></li>
+            
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-display text-[1.6rem] italic leading-tight">Qué pasa después</h3>
+          <ol class="mt-6 list-none space-y-4">
+            
+            <li class="flex gap-4"><span aria-hidden="true" class="mt-[.6em] h-2 w-2 shrink-0 rounded-full bg-paper"></span><span>Confirmamos que lo recibimos en una semana.</span></li>
+            
+            <li class="flex gap-4"><span aria-hidden="true" class="mt-[.6em] h-2 w-2 shrink-0 rounded-full bg-paper"></span><span>Dos lectores del equipo lo leen durante ocho semanas.</span></li>
+            
+            <li class="flex gap-4"><span aria-hidden="true" class="mt-[.6em] h-2 w-2 shrink-0 rounded-full bg-paper"></span><span>Respondemos con una decisión y, si hay camino, con una propuesta de edición.</span></li>
+            
+          </ol>
+        </div>
+      </div>
     </div>
   </section>
 
   
-  <section class="bg-accent px-[max(clamp(1rem,14vw,16rem),calc((100%_-_80rem)/2))] py-[clamp(3rem,8vw,8rem)] font-display text-[clamp(2.1rem,5vw,5.8rem)] leading-[1.05] text-paper">
-    <blockquote class="text-balance tracking-[-.02em]">“Volví porque aquí me explicaron el porqué de cada decisión y no me hicieron sentir perdido.”</blockquote>
-    <small class="mt-6 block max-w-[65ch] font-sans text-[1rem] leading-[1.5]">Testimonio de cliente de Bogotá. La respuesta tranquila y el precio visible son parte del trabajo.</small>
-  </section>
-
-  <section class="grid grid-cols-1 items-center gap-[clamp(2rem,7vw,8rem)] px-gutter py-[clamp(4rem,9vw,10rem)] md:grid-cols-2">
-    <div>
-      <h2 class="mb-6 mt-0 text-balance font-display text-[clamp(2.6rem,6vw,6.3rem)] font-bold leading-[.9] tracking-[-.06em]">Detalles que no dejamos para el final</h2>
-      <div class="max-w-[65ch] text-[1.05rem] [&amp;_p]:my-[1em] [&amp;_p]:text-pretty"><p>Los buenos resultados dependen de información precisa y de tiempo bien usado. Por eso revisamos disponibilidad antes de prometer una fecha, cuidamos los materiales y pedimos aprobación antes de abrir un gasto nuevo. Nuestro equipo está preparado para atender casos sencillos y orientar los que requieren una solución distinta.</p>
-<p>Después de la entrega seguimos disponibles para ajustes razonables, dudas de cuidado y próximos pasos. Guardamos el registro de atención para que no tengas que repetir la historia cada vez que vuelvas. Ese seguimiento hace que el servicio sea útil también después del primer día.</p></div>
+  <section id="contacto" class="mx-auto grid max-w-[80rem] gap-10 px-5 py-20 md:grid-cols-12 md:items-center md:px-10 md:py-28">
+    <img src="https://media.stronglify.com/295/marginalia-05-1792522319.jpg" alt="Mesa de lectura y estantes de la librería de Marginalia" class="aspect-[4/3] w-full object-cover md:col-span-7"/>
+    <div class="md:col-span-4 md:col-start-9">
+      <h2 class="font-display text-[clamp(2.2rem,4vw,3.4rem)] font-medium leading-[1.05] tracking-[-.015em] text-balance">La librería abre seis días</h2>
+      <p class="mt-6 max-w-[40ch] text-[1.1rem] leading-[1.65] text-muted text-pretty">Están todos los libros de la casa y una mesa larga para leer antes de comprar.</p>
+      <dl class="mt-8 space-y-5">
+        <div>
+          <dt class="text-[.95rem] text-muted">Horario</dt>
+          <dd class="mt-1"><span class="block">Lunes a viernes, 9:00 a. m. a 6:00 p. m.</span><span class="block">Sábados, 9:00 a. m. a 2:00 p. m.</span></dd>
+        </div>
+        <div>
+          <dt class="text-[.95rem] text-muted">Teléfono</dt>
+          <dd class="mt-1"><a href="tel:300%20000%200000" class="underline decoration-1 underline-offset-[.3em] transition-colors duration-200 hover:text-accent">300 000 0000</a></dd>
+        </div>
+        <div>
+          <dt class="text-[.95rem] text-muted">Correo</dt>
+          <dd class="mt-1">tucorreoaqui</dd>
+        </div>
+        <div>
+          <dt class="text-[.95rem] text-muted">Ciudad</dt>
+          <dd class="mt-1">Bogotá, Colombia</dd>
+        </div>
+      </dl>
     </div>
-    <img loading="lazy" src="https://media.stronglify.com/295/marginalia-04-1792522316.jpg" alt="Equipo de trabajo de marginalia" class="min-h-[340px] w-full object-cover"/>
-  </section>
-
-  
-  <section class="grid grid-cols-1 gap-[clamp(2rem,8vw,10rem)] px-gutter py-[clamp(4rem,9vw,10rem)] md:grid-cols-[.75fr_1.25fr]">
-    <div>
-      <h2 class="mb-6 mt-0 text-balance font-display text-[clamp(2.6rem,6vw,6.3rem)] font-bold leading-[.9] tracking-[-.06em]">Preguntas frecuentes</h2>
-      <p class="my-[1em] max-w-[65ch] text-pretty text-[1.05rem]">Responder bien también es parte del servicio. Aquí están las preguntas que suelen aparecer antes de una primera visita.</p>
-    </div>
-    <dl>
-      
-      <dt class="mt-8 font-display text-[1.5rem] font-medium leading-[1.25] first:mt-0">¿Necesito agendar?</dt>
-      <dd class="mt-2 max-w-[65ch]">Recomendamos escribir antes para confirmar tiempo disponible. También atendemos consultas breves según orden de llegada.</dd>
-      
-      <dt class="mt-8 font-display text-[1.5rem] font-medium leading-[1.25] first:mt-0">¿El precio puede cambiar?</dt>
-      <dd class="mt-2 max-w-[65ch]">Solo si cambia el alcance, el material o aparece un hallazgo que te explicamos antes de continuar.</dd>
-      
-      <dt class="mt-8 font-display text-[1.5rem] font-medium leading-[1.25] first:mt-0">¿Cuánto tarda?</dt>
-      <dd class="mt-2 max-w-[65ch]">Depende del caso. En la primera respuesta te damos una fecha realista y te avisamos si algo la modifica.</dd>
-      
-      <dt class="mt-8 font-display text-[1.5rem] font-medium leading-[1.25] first:mt-0">¿Qué medios de pago reciben?</dt>
-      <dd class="mt-2 max-w-[65ch]">Efectivo, transferencia, tarjeta y enlaces de pago. El valor acordado queda registrado.</dd>
-      
-      <dt class="mt-8 font-display text-[1.5rem] font-medium leading-[1.25] first:mt-0">¿Dan garantía?</dt>
-      <dd class="mt-2 max-w-[65ch]">Sí, sobre el trabajo realizado y según las condiciones explicadas en tu comprobante de entrega.</dd>
-      
-    </dl>
-  </section>
-
-  <section class="grid grid-cols-1 items-end gap-12 px-gutter py-[clamp(4rem,9vw,10rem)] md:grid-cols-2">
-    <div>
-      <h2 class="mb-6 mt-0 text-balance font-display text-[clamp(2.6rem,6vw,6.3rem)] font-bold leading-[.9] tracking-[-.06em]">Nos encuentras en Bogotá</h2>
-      <div class="max-w-[65ch] text-[1.05rem] [&amp;_p]:my-[1em] [&amp;_p]:text-pretty"><p>Atendemos de lunes a viernes de 9:00 a. m. a 6:00 p. m. y sábados de 9:00 a. m. a 2:00 p. m. Si necesitas una hora diferente, escríbenos: cuando la agenda lo permite buscamos una alternativa. Nuestro contacto está disponible para enviar ubicación, confirmar inventario o resolver una duda antes de que salgas.</p>
-<p><strong>Contacto:</strong> +57 300 555 0184 · hola@marginalia.co</p></div>
-    </div>
-    <img loading="lazy" src="https://media.stronglify.com/295/marginalia-05-1792522319.jpg" alt="Ubicación de marginalia" class="min-h-[300px] w-full object-cover"/>
-  </section>
-
-  <section class="grid grid-cols-1 items-start gap-[clamp(2rem,7vw,8rem)] px-gutter py-[clamp(4rem,9vw,10rem)] md:grid-cols-2">
-    <div>
-      <h2 class="mb-6 mt-0 text-balance font-display text-[clamp(2.6rem,6vw,6.3rem)] font-bold leading-[.9] tracking-[-.06em]">La parte que también importa</h2>
-      <div class="max-w-[65ch] text-[1.05rem] [&amp;_p]:my-[1em] [&amp;_p]:text-pretty"><p>Detrás de editorial independiente, catálogo y convocatorias hay decisiones que rara vez caben en un precio corto. En marginalia preferimos ponerlas sobre la mesa: quién atiende, qué incluye el valor, cómo cuidamos el resultado y qué pasa cuando tu necesidad cambia. Esa claridad ahorra vueltas, evita malos entendidos y permite que la visita tenga sentido desde el primer mensaje.</p>
-<p>Trabajamos con agenda real, inventario confirmado y una forma de responder que no depende de que insistas. Si una alternativa es más adecuada para tu presupuesto, te la mostramos. Si el caso necesita otro especialista o un plazo más largo, lo nombramos a tiempo. La confianza no consiste en decir que todo es posible; consiste en ayudarte a escoger bien.</p>
-<p>También sabemos que cada cliente llega con una historia distinta. Hay quien viene por una urgencia, quien compara opciones y quien vuelve porque la primera atención fue amable. Escuchamos esas diferencias antes de proponer. Así la recomendación se ajusta al uso, a la fecha y al contexto de quien pregunta.</p>
-<p>El resultado que buscamos es simple: que salgas sabiendo qué recibiste, cuánto pagaste, cómo cuidarlo y a quién escribir si necesitas ayuda. Esa es la clase de relación que queremos sostener en Bogotá, con respuestas concretas y trabajo que se pueda revisar.</p></div>
-    </div>
-    <img loading="lazy" src="https://media.stronglify.com/295/marginalia-06-1792522320.jpg" alt="Detalle adicional del servicio de marginalia" class="min-h-[340px] w-full object-cover md:sticky md:top-12"/>
-  </section>
-
-  <section class="px-gutter py-[clamp(4rem,9vw,10rem)]">
-    <h2 class="mb-6 mt-0 text-balance font-display text-[clamp(2.6rem,6vw,6.3rem)] font-bold leading-[.9] tracking-[-.06em]">Antes de venir</h2>
-    <div class="max-w-[65ch] text-[1.05rem] [&amp;_p]:my-[1em] [&amp;_p]:text-pretty"><p>Para atenderte mejor, puedes escribirnos con una foto, una referencia, una fecha o una breve descripción. En marginalia usamos esa información para preparar la conversación y no hacerte perder tiempo repitiendo lo mismo al llegar. Si tienes una restricción de horario o presupuesto, dilo desde el comienzo: es una forma útil de encontrar una opción realista.</p>
-<p>La atención en Bogotá busca ser cercana sin improvisar. Confirmamos datos importantes por mensaje, cuidamos tus pertenencias y explicamos cualquier recomendación con palabras comunes. Nuestro trabajo es editorial independiente, catálogo y convocatorias, pero también es dejarte una decisión clara cuando termina la visita.</p></div>
-  </section>
-
-  <section class="px-gutter py-[clamp(4rem,9vw,10rem)]">
-    <p class="my-[1em] max-w-[65ch] text-pretty text-[1.05rem]">Si ya nos conoces, vuelve con tranquilidad: revisamos el registro anterior para seguir desde donde quedamos. Si es tu primera vez, basta con llegar con una pregunta honesta. marginalia existe para que Bogotá tenga una alternativa atenta, verificable y cercana cuando necesita resolver algo importante.</p>
-  </section>
-
-  
-  <section class="bg-dark px-4 py-[clamp(4rem,12vw,13rem)] text-center text-paper">
-    <h2 class="mx-auto mb-6 mt-0 max-w-[14ch] text-balance font-display text-[clamp(3.4rem,10vw,10rem)] font-bold leading-[.85] tracking-[-.06em]">Empieza por una pregunta concreta.</h2>
-    <p class="mx-auto mb-[1.6rem] mt-0 max-w-[58ch] text-pretty">Cuéntanos qué necesitas y cuándo lo necesitas. Te respondemos con una alternativa clara, el valor estimado en COP y el próximo paso para resolverlo.</p>
-    <a href="#" class="inline-block whitespace-nowrap bg-paper px-[1.15rem] py-[.85rem] font-bold text-dark transition-[background-color,color,transform] duration-200 ease-out hover:bg-accent hover:text-paper active:scale-[0.98]">Hablar con marginalia</a>
   </section>
 </main>
 
-<footer class="bg-ink px-gutter py-[clamp(2rem,6vw,7rem)] text-paper">
-  <div class="grid grid-cols-1 gap-8 md:grid-cols-[2fr_1fr_1fr]">
-    <div>
-      <h2 class="m-0 font-display text-[clamp(2.5rem,6vw,7rem)] font-bold leading-[.9] tracking-[-.06em]">marginalia</h2>
-      <p class="my-1">editorial independiente, catálogo y convocatorias en Bogotá.</p>
-    </div>
-    
-    <div>
+<footer class="bg-mist">
+  <div class="mx-auto max-w-[80rem] px-5 py-16 text-center md:px-10 md:py-20">
+    <p class="font-display text-[clamp(2.6rem,6vw,4.5rem)] italic leading-none tracking-[-.015em]">Marginalia</p>
+    <p class="mx-auto mt-5 max-w-[44ch] text-pretty text-muted">Editorial independiente en Bogotá. Libros de autores colombianos, convocatorias abiertas y talleres de lectura.</p>
+    <nav class="mt-8 flex flex-wrap justify-center gap-x-8 gap-y-2" aria-label="Menú del pie de página">
       
-      <p class="my-1">Inicio</p>
+      <a href="./" class="font-display text-[1.15rem] italic underline decoration-transparent decoration-1 underline-offset-[.3em] transition-colors duration-200 hover:text-accent hover:decoration-current">Inicio</a>
       
-      <p class="my-1">Nosotros</p>
+      <a href="./page" class="font-display text-[1.15rem] italic underline decoration-transparent decoration-1 underline-offset-[.3em] transition-colors duration-200 hover:text-accent hover:decoration-current">Nosotros</a>
       
-      <p class="my-1">Blog</p>
+      <a href="./blog" class="font-display text-[1.15rem] italic underline decoration-transparent decoration-1 underline-offset-[.3em] transition-colors duration-200 hover:text-accent hover:decoration-current">Blog</a>
       
-    </div>
-    
-    <div>
-      
-      <p class="my-1">Lun a sáb</p>
-      
-      <p class="my-1">+57 300 555 0184</p>
-      
-      <p class="my-1">Colombia</p>
-      
-    </div>
-    
+    </nav>
+    <p class="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-1 text-[.95rem]">
+      <a href="tel:300%20000%200000" class="underline decoration-transparent decoration-1 underline-offset-[.3em] transition-colors duration-200 hover:text-accent hover:decoration-current">300 000 0000</a>
+      <span>tucorreoaqui</span>
+    </p>
+    <p class="mt-10 text-[.875rem] text-muted">© 2026 Marginalia. Bogotá, Colombia.</p>
   </div>
 </footer>
 
-<script>const b=document.getElementById("menu-button"),n=document.getElementById("navlinks");b.addEventListener("click",()=>{const o=!n.classList.toggle("hidden");n.classList.toggle("flex",o);b.setAttribute("aria-expanded",o)});</script>
-
+<script>const b=document.getElementById("menu-button"),n=document.getElementById("navlinks");b.addEventListener("click",function(){const o=n.classList.toggle("flex");n.classList.toggle("hidden",!o);b.setAttribute("aria-expanded",String(o))});</script>
 </body></html>
